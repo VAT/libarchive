@@ -2,3 +2,6 @@
 
 *.sh             crlf=input
 config.rpath     crlf=input
+
+*.xcodeproj -crlf -diff -merge
+*.pbxproj -crlf -diff -merge
