@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10CDB95316D9665D00E7ED2D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CDB95216D9665D00E7ED2D /* config.h */; };
 		10F34A1F16D7C7DA00D13AD9 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F34A1E16D7C7DA00D13AD9 /* libbz2.dylib */; };
 		10F34A2116D7C7E000D13AD9 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F34A2016D7C7E000D13AD9 /* libiconv.dylib */; };
 		10F34C6016D7C8CC00D13AD9 /* archive.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F34A2316D7C8C800D13AD9 /* archive.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -143,10 +144,10 @@
 		10F34DB416D7C8CC00D13AD9 /* lafe_platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F34C5D16D7C8CC00D13AD9 /* lafe_platform.h */; };
 		10F34DB516D7C8CC00D13AD9 /* line_reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 10F34C5E16D7C8CC00D13AD9 /* line_reader.c */; };
 		10F34DB616D7C8CC00D13AD9 /* line_reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F34C5F16D7C8CC00D13AD9 /* line_reader.h */; };
-		10F34DBC16D7C91B00D13AD9 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F34DBB16D7C91B00D13AD9 /* config.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10CDB95216D9665D00E7ED2D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		10F34A0C16D7C64B00D13AD9 /* liblibarchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibarchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F34A1E16D7C7DA00D13AD9 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
 		10F34A2016D7C7E000D13AD9 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
@@ -288,7 +289,6 @@
 		10F34DB816D7C8FD00D13AD9 /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
 		10F34DB916D7C8FD00D13AD9 /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
 		10F34DBA16D7C8FD00D13AD9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		10F34DBB16D7C91B00D13AD9 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,11 +307,11 @@
 		10F34A0316D7C64B00D13AD9 = {
 			isa = PBXGroup;
 			children = (
+				10CDB95216D9665D00E7ED2D /* config.h */,
 				10F34DB716D7C8FD00D13AD9 /* COPYING */,
 				10F34DB816D7C8FD00D13AD9 /* INSTALL */,
 				10F34DB916D7C8FD00D13AD9 /* NEWS */,
 				10F34DBA16D7C8FD00D13AD9 /* README */,
-				10F34DBB16D7C91B00D13AD9 /* config.h */,
 				10F34A2216D7C8C800D13AD9 /* libarchive */,
 				10F34C5A16D7C8CC00D13AD9 /* libarchive_fe */,
 				10F34A0E16D7C64B00D13AD9 /* Frameworks */,
@@ -519,7 +519,7 @@
 				10F34DB316D7C8CC00D13AD9 /* err.h in Headers */,
 				10F34DB416D7C8CC00D13AD9 /* lafe_platform.h in Headers */,
 				10F34DB616D7C8CC00D13AD9 /* line_reader.h in Headers */,
-				10F34DBC16D7C91B00D13AD9 /* config.h in Headers */,
+				10CDB95316D9665D00E7ED2D /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
